@@ -1,0 +1,24 @@
+.vidBk {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .my-vid {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  #passwordTip {
+    background: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    border-radius: 75%;
+  }
+
+  .mySpacer {
+    margin-top: 20vh;
+  }
